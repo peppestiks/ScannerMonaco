@@ -1,0 +1,81 @@
+body {
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+  font-family: "Montserrat";
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 200px;
+}
+
+.i1 {
+  width: 100vw;
+  height: 10vh;
+}
+
+.logo:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.scan-text {
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+}
+
+.valori {
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.nutrienti {
+  position: relative;
+  text-align: center;
+  font-size: x-large;
+}
+
+#camera {
+  position: fixed;
+}
+
+#nome-prodotto {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+}
+
+.version {
+  position: relative;
+  padding-left: 20px;
+}
+
+#fotoprodotto {
+  border-radius: 25px;
+  border: 2px solid #f1f1f1;
+}
+
+.libero {
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+
